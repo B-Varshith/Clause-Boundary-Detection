@@ -2,7 +2,7 @@
 
 Automatic clause boundary detection using the **Universal Dependencies (UD) English Web Treebank** dataset. This project implements and compares three approaches: Rule-based, CRF, and BiLSTM.
 
-## 🎯 What is Clause Boundary Detection?
+##  What is Clause Boundary Detection?
 
 A **clause** is a grammatical unit containing a subject and predicate. Clause boundary detection identifies where clauses start and end in a sentence.
 
@@ -12,7 +12,7 @@ Input:  "When the rain stopped, we went outside and played."
 Output: [When the rain stopped] [we went outside] [played]
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── data/UD_English-EWT/       # UD dataset (.conllu files)
@@ -32,7 +32,7 @@ Output: [When the rain stopped] [we went outside] [played]
 └── requirements.txt           # Dependencies
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -53,7 +53,7 @@ python train.py
 streamlit run app.py
 ```
 
-## 🔧 Models
+##  Models
 
 | Model | Approach | Description |
 |-------|----------|-------------|
@@ -61,20 +61,20 @@ streamlit run app.py
 | CRF | Machine Learning | sklearn-crfsuite with POS, dependency, and context features |
 | BiLSTM | Deep Learning | PyTorch BiLSTM with word + POS embeddings |
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 - **Token-level**: Precision, Recall, F1 per BIO tag
 - **Clause-level**: Exact match Precision, Recall, F1
 - **Error Analysis**: By sentence length, clause type, nesting depth
 
-## 📚 Dataset
+##  Dataset
 
 **Universal Dependencies English Web Treebank (EWT)**
 - ~16,000 annotated sentences
 - Full syntactic dependency annotations
 - [Website](https://universaldependencies.org/)
 
-## 🛠️ Technologies
+##  Technologies
 
 - Python 3.12
 - spaCy — NLP & dependency parsing
