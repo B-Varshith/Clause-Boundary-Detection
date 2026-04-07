@@ -1,0 +1,81 @@
+{
+  "per_label": {
+    "B-CLAUSE": {
+      "precision": 0.8282794990112063,
+      "recall": 0.6473467284904688,
+      "f1-score": 0.7267206477732794,
+      "support": 3882.0
+    },
+    "I-CLAUSE": {
+      "precision": 0.938340376488667,
+      "recall": 0.9211766924382425,
+      "f1-score": 0.9296793224854887,
+      "support": 21212.0
+    },
+    "O": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.8788156531441779,
+    "macro avg": {
+      "precision": 0.5888732918332912,
+      "recall": 0.5228411403095704,
+      "f1-score": 0.5521333234195893,
+      "support": 25094.0
+    },
+    "weighted avg": {
+      "precision": 0.9213141420753609,
+      "recall": 0.8788156531441779,
+      "f1-score": 0.8982819535832491,
+      "support": 25094.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      2513,
+      1284,
+      85
+    ],
+    [
+      521,
+      19540,
+      1151
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "confusion_labels": [
+    "B-CLAUSE",
+    "I-CLAUSE",
+    "O"
+  ],
+  "clause_macro_f1": 0.828199985129384,
+  "total_tokens": 25094,
+  "clause_metrics": {
+    "clause_precision": 0.4578,
+    "clause_recall": 0.3578,
+    "clause_f1": 0.4017,
+    "true_clauses": 3882,
+    "pred_clauses": 3034,
+    "correct_clauses": 1389
+  },
+  "error_analysis": {
+    "total_errors": 3041,
+    "error_types": {
+      "B-CLAUSE -> I-CLAUSE": 1284,
+      "I-CLAUSE -> O": 1151,
+      "I-CLAUSE -> B-CLAUSE": 521,
+      "B-CLAUSE -> O": 85
+    },
+    "errors_by_length": {
+      "short": 283,
+      "medium": 1508,
+      "long": 1250
+    }
+  }
+}

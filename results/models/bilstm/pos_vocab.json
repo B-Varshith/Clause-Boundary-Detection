@@ -1,0 +1,1 @@
+{"token2idx": {"<PAD>": 0, "<UNK>": 1, "PROPN": 2, "PUNCT": 3, "ADJ": 4, "NOUN": 5, "VERB": 6, "DET": 7, "ADP": 8, "AUX": 9, "PRON": 10, "PART": 11, "SCONJ": 12, "NUM": 13, "ADV": 14, "CCONJ": 15, "INTJ": 16, "X": 17, "SYM": 18}}

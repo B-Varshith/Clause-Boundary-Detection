@@ -1,0 +1,10 @@
+{
+  "word_emb_dim": 100,
+  "pos_emb_dim": 25,
+  "hidden_dim": 128,
+  "num_layers": 2,
+  "dropout": 0.3,
+  "word_vocab_size": 8867,
+  "pos_vocab_size": 19,
+  "num_labels": 4
+}

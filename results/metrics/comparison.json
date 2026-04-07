@@ -1,0 +1,37 @@
+{
+  "models": [
+    {
+      "name": "rule_based",
+      "B-CLAUSE_precision": 0.8282794990112063,
+      "B-CLAUSE_recall": 0.6473467284904688,
+      "B-CLAUSE_f1": 0.7267206477732794,
+      "I-CLAUSE_precision": 0.938340376488667,
+      "I-CLAUSE_recall": 0.9211766924382425,
+      "I-CLAUSE_f1": 0.9296793224854887,
+      "macro_f1": 0.5521333234195893,
+      "weighted_f1": 0.8982819535832491
+    },
+    {
+      "name": "crf",
+      "B-CLAUSE_precision": 0.9395827688973178,
+      "B-CLAUSE_recall": 0.893353941267388,
+      "B-CLAUSE_f1": 0.9158853822791496,
+      "I-CLAUSE_precision": 0.9806569172545905,
+      "I-CLAUSE_recall": 0.9894870827833302,
+      "I-CLAUSE_f1": 0.9850522116625602,
+      "macro_f1": 0.6336458646472366,
+      "weighted_f1": 0.9743522183706816
+    },
+    {
+      "name": "bilstm",
+      "B-CLAUSE_precision": 0.9319331983805668,
+      "B-CLAUSE_recall": 0.9487377640391551,
+      "B-CLAUSE_f1": 0.940260403369926,
+      "I-CLAUSE_precision": 0.9905874562482263,
+      "I-CLAUSE_recall": 0.9873184989628512,
+      "I-CLAUSE_f1": 0.988950276243094,
+      "macro_f1": 0.6430702265376733,
+      "weighted_f1": 0.9814180340141293
+    }
+  ]
+}

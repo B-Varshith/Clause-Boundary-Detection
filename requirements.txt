@@ -1,0 +1,12 @@
+conllu>=5.0
+spacy>=3.7
+nltk
+scikit-learn
+sklearn-crfsuite
+torch>=2.0
+numpy
+pandas
+matplotlib
+seaborn
+streamlit
+tqdm

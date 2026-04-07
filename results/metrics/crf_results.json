@@ -1,0 +1,42 @@
+{
+  "B-CLAUSE": {
+    "precision": 0.9395827688973178,
+    "recall": 0.893353941267388,
+    "f1-score": 0.9158853822791496,
+    "support": 3882.0
+  },
+  "I-CLAUSE": {
+    "precision": 0.9806569172545905,
+    "recall": 0.9894870827833302,
+    "f1-score": 0.9850522116625602,
+    "support": 21212.0
+  },
+  "O": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 0.0
+  },
+  "accuracy": 0.9746154459233283,
+  "macro avg": {
+    "precision": 0.6400798953839694,
+    "recall": 0.6276136746835728,
+    "f1-score": 0.6336458646472366,
+    "support": 25094.0
+  },
+  "weighted avg": {
+    "precision": 0.974302814922442,
+    "recall": 0.9746154459233283,
+    "f1-score": 0.9743522183706816,
+    "support": 25094.0
+  },
+  "clause_metrics": {
+    "clause_precision": 0.8101,
+    "clause_recall": 0.7702,
+    "clause_f1": 0.7896,
+    "true_clauses": 3882,
+    "pred_clauses": 3691,
+    "correct_clauses": 2990
+  },
+  "training_time": 13.215399503707886
+}
